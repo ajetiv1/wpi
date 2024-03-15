@@ -1,0 +1,28 @@
+/* Custom CSS styles */
+    
+    .btn-container .btn-block {
+      width: 100%;
+      height: 100px;
+      margin-bottom: 10px;
+    }
+    /* intially hide the contents (btn-content)
+    and the display messages (dm)*/
+    .btn-content, .dm{
+      display: none;
+      padding:20px;
+      
+    }
+    /* give the displayed message a light gray color
+    to distinguish it */
+    .dm {
+      background-color: #f3f3f3;
+      margin: 0px 20px 10px 20px;
+    }
+    /* make the close button stand out a little 
+    but not too much */
+    .close-button {
+      padding: 10px;
+      margin:10px;
+      background-color: slategray;
+      color: #fff;
+    }
